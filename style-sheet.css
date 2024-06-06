@@ -1,0 +1,73 @@
+.border-box {
+    box-sizing:border-box;
+}
+
+h1,h2,h3{
+    color: #CFEE9E;
+    text-align: center;
+}
+
+h1{
+    font-size: 50px;
+}
+
+header {
+    background-color: #394032;
+    text-align: center;
+}
+
+div {
+    width: 900px;
+    margin:auto;
+}
+
+a {
+    color:aquamarine;
+    text-decoration: none;
+    margin: 5px;
+}
+
+a:visited {
+    color:lightsalmon;
+}
+
+a:hover {
+    color: indianred;
+}
+
+img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+body {
+    background-color: #1E2019;
+    padding: 50px;
+}
+
+.profile-image {
+    border-radius: 50%;
+    border: 10px solid #394032
+}
+
+.container-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.container-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.item-image {
+    flex: 2;
+    margin: 20px;
+}
+
+.item {
+    flex: 1;
+    margin: 20px;
+}
